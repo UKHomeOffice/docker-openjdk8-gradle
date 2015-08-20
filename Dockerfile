@@ -4,8 +4,6 @@ RUN mkdir /data
 WORKDIR /data
 
 ONBUILD COPY . /data
-ONBUILD RUN pwd
-ONBUILD RUN ls -al
 ONBUILD RUN yum install -y java-1.8.0-openjdk java-1.8.0-openjdk-devel && \
     ./gradlew clean installApp && \
      yum remove -y java-1.8.0-openjdk-devel && \
