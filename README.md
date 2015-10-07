@@ -1,5 +1,7 @@
 #docker-openjdk8-gradle
 
+[![Build Status](https://travis-ci.org/UKHomeOffice/docker-openjdk8-gradle.svg?branch=master)](https://travis-ci.org/UKHomeOffice/docker-openjdk8-gradle)
+
 Builds upon ukhomeofficedigital/centos-base by adding openjdk8 and running gradlew.
 
 ##Assumptions
